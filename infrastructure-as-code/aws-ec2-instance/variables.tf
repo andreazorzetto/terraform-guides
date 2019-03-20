@@ -17,3 +17,11 @@ variable "name" {
   description = "name to pass to Name tag"
   default = "Provisioned by Terraform"
 }
+
+variable "ttl" {
+description = "TTL"
+}
+
+variable "owner" {
+description = "Owner name"
+}
